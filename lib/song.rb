@@ -22,7 +22,7 @@ class Song
     @@genres.uniq
   end
   def self.genre_count
-    @@genres.sort.each_with_object_ do |genre, genre_hash|
+    @@genres.sort.each_with_object do |genre, genre_hash|
       genre_hash[genre] = 0
       genre_hash[genre] += 1
 
