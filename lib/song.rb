@@ -31,4 +31,6 @@ end
     @@artist.sort.each_with_object({}) do |artist, atrist_hash|
       artist_hash[artist] ||= 0
       artist_hash[artist] += 1
+    end
+  end
 end
