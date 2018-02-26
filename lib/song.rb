@@ -25,7 +25,10 @@ class Song
     @@genres.sort.each_with_object({}) do |genre, genre_hash|
       genre_hash[genre] ||= 0
       genre_hash[genre] += 1
-
   end
 end
+  def self.artist_count
+    @@artist.sort.each_with_object({}) do |artist, atrist_hash|
+      artist_hash[artist] ||= 0
+      artist_hash[artist] += 1
 end
